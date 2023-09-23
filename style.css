@@ -1,0 +1,71 @@
+*{font-family: 'Roboto', sans-serif;}
+body{background-color: #114692;}
+
+/* Navbar */
+.navbar{
+    color: #114692;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link{
+    color: #fff;
+    transition: color 0.3s;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus{
+    color: #fff553;
+    background-color: transparent;
+}
+.navbar-toggler{border: #fff;}
+.navbar-toggler-icon{background-color: #114692;}
+
+.btn{
+    background-color: #333;
+    border: none;
+    color: #fff;
+    transition: background-color 0.2s, color 0.3s;
+}
+.btn:hover,
+.btnc:focus{
+    background-color: #555;
+    color: #fff;
+}
+.btn-outline-success{
+    color: #333;
+    border-color: #333;
+    background-color: transparent;
+}
+
+.carousel-inner
+
+/*fOOTER */
+footer{grid-area: footer;}
+
+footer{
+    background-color: #114692;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-section{
+    flex: 1;
+    padding: 5px;
+    max-width: 300px;
+}
+.footer-section ul{list-style: none;}
+.footer-section ul li a{color: #2d2d2d; text-decoration: none;}
+.footer-section ul li a:hover{color: #2d2d2d; text-decoration: underline;}
+.footer-bottom{text-align: center;}
+
+.social-links{font-size: 14px; margin-top: 10px; padding-bottom: 20px;}
+.social-icon{font-size: 28px; color:#ffffff; margin-right: 10px;}
+
+.author-email{font-size: 16px; color: #ffffff; text-decoration: none;}
+.author-email:hover{color: #ffffff; text-decoration: underline;}
+
+
